@@ -1,12 +1,10 @@
-<!-- LOVABLE:BEGIN -->
+# LifeRoute — Emergency Healthcare Coordination Platform
 
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
+LifeRoute is a full-stack emergency healthcare coordination platform connecting patients, ambulances, paramedics, hospitals, and doctors during critical medical emergencies.
 
-<!-- LOVABLE:END -->
+## Tech Stack
+- **Frontend:** React 19, TanStack Router & Start, Tailwind CSS v4, Lucide Icons, Radix UI primitives.
+- **Backend:** Express & Node.js, MongoDB Document Store with File Persistence, WebSockets.
+- **AI & Vision:** Groq AI Clinical Triage, Google AI Vision injury detection.
+- **Maps & Location:** Google Maps Platform (Directions, Geocoding, Places, Interactive Map).
+- **Payments:** Razorpay cashless emergency checkout.
