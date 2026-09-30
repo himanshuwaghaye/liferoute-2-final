@@ -1,0 +1,21 @@
+{
+  "appId": "com.liferoute.emergency",
+  "appName": "LifeRoute",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "Geolocation": {
+      "permissions": ["location", "coarseLocation"]
+    },
+    "Camera": {
+      "permissions": ["camera", "photos"]
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}
