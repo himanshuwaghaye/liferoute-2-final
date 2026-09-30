@@ -5,13 +5,21 @@ import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import { nitro } from "nitro/vite";
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  oxc: {
+    jsx: {
+      runtime: "automatic",
+      development: false,
+    },
+  },
   plugins: [
     tanstackStart(),
     nitro({
       preset: process.env.NITRO_PRESET || (process.env.VERCEL ? "vercel" : undefined),
     }),
-    viteReact(),
+    viteReact({
+      jsxRuntime: "automatic",
+    }),
     tailwindcss(),
     tsconfigPaths({ projects: ["./tsconfig.json"] }),
   ],
@@ -31,4 +39,4 @@ export default defineConfig({
   server: {
     port: 8080,
   },
-});
+}));
