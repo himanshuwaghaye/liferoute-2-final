@@ -34,8 +34,8 @@
       ],
       "loginCount": 5,
       "lastLoginAt": "2026-09-29T17:47:13.711Z",
-      "createdAt": "2026-09-30T07:39:04.380Z",
-      "updatedAt": "2026-09-30T07:39:04.380Z"
+      "createdAt": "2026-09-30T08:02:56.426Z",
+      "updatedAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "usr-driver-1",
@@ -53,8 +53,8 @@
       "emergencyContacts": [],
       "loginCount": 12,
       "lastLoginAt": "2026-09-29T17:47:13.712Z",
-      "createdAt": "2026-09-30T07:39:04.380Z",
-      "updatedAt": "2026-09-30T07:39:04.380Z"
+      "createdAt": "2026-09-30T08:02:56.426Z",
+      "updatedAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "usr-paramedic-1",
@@ -72,8 +72,8 @@
       "emergencyContacts": [],
       "loginCount": 8,
       "lastLoginAt": "2026-09-29T17:51:07.468Z",
-      "createdAt": "2026-09-30T07:39:04.380Z",
-      "updatedAt": "2026-09-30T07:39:04.382Z"
+      "createdAt": "2026-09-30T08:02:56.426Z",
+      "updatedAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "usr-doctor-1",
@@ -91,8 +91,8 @@
       "emergencyContacts": [],
       "loginCount": 19,
       "lastLoginAt": "2026-09-29T17:51:07.468Z",
-      "createdAt": "2026-09-30T07:39:04.382Z",
-      "updatedAt": "2026-09-30T07:39:04.382Z"
+      "createdAt": "2026-09-30T08:02:56.426Z",
+      "updatedAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "usr-admin-1",
@@ -110,27 +110,29 @@
       "emergencyContacts": [],
       "loginCount": 42,
       "lastLoginAt": "2026-09-29T17:51:07.468Z",
-      "createdAt": "2026-09-30T07:39:04.382Z",
-      "updatedAt": "2026-09-30T07:39:04.382Z"
+      "createdAt": "2026-09-30T08:02:56.426Z",
+      "updatedAt": "2026-09-30T08:02:56.426Z"
     }
   ],
   "emergency_requests": [
     {
-      "_id": "req-1790752508340-7562",
-      "referenceCode": "LR-REQ-53855",
+      "_id": "req-1790755376422-7776",
+      "referenceCode": "LR-REQ-27358",
       "patientId": "usr-patient-1",
       "patientName": "Ishant Arun",
-      "category": "accident",
-      "subtype": "General",
-      "symptoms": "",
+      "category": "medical",
+      "subtype": "Heart",
+      "symptoms": "Chest pain",
       "location": {
         "latitude": 19.076,
         "longitude": 72.8777,
         "address": "Confirmed GPS Coordinates"
       },
-      "status": "REQUESTED",
-      "createdAt": "2026-09-30T07:15:08.340Z",
-      "updatedAt": "2026-09-30T07:15:08.340Z"
+      "status": "AMBULANCE_ASSIGNED",
+      "assignedAmbulanceId": "amb-1",
+      "assignedHospitalId": "hos-1",
+      "createdAt": "2026-09-30T08:02:56.422Z",
+      "updatedAt": "2026-09-30T08:02:56.426Z"
     }
   ],
   "ambulances": [
@@ -279,7 +281,7 @@
       "provider": "Sunrise Multispeciality",
       "date": "2026-08-14",
       "status": "Final",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "rec-2",
@@ -289,7 +291,7 @@
       "provider": "City General Hospital",
       "date": "2026-07-02",
       "status": "Final",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "rec-3",
@@ -299,7 +301,7 @@
       "provider": "Dr. N. Bhatia",
       "date": "2026-05-20",
       "status": "Shared",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "rec-4",
@@ -309,7 +311,7 @@
       "provider": "Dr. N. Bhatia",
       "date": "2025-11-11",
       "status": "Final",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "rec-5",
@@ -319,7 +321,7 @@
       "provider": "Dr. N. Bhatia",
       "date": "2026-05-20",
       "status": "Final",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     }
   ],
   "payments": [
@@ -332,7 +334,7 @@
       "transactionId": "LR9F2K81QA",
       "method": "UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-2",
@@ -343,7 +345,7 @@
       "transactionId": "LR4T7P19ZB",
       "method": "Card",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751906541-502",
@@ -354,7 +356,7 @@
       "transactionId": "pay_rzp_6ed0sfwq",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751910475-620",
@@ -365,7 +367,7 @@
       "transactionId": "pay_rzp_2je8b09c",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751913899-327",
@@ -376,7 +378,7 @@
       "transactionId": "pay_rzp_gpjxe0gg",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751915711-629",
@@ -387,7 +389,7 @@
       "transactionId": "pay_rzp_u5xgtz29",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751918045-406",
@@ -398,7 +400,7 @@
       "transactionId": "pay_rzp_w52hiysq",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751919077-967",
@@ -409,7 +411,7 @@
       "transactionId": "pay_rzp_ik9i56y9",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790751919974-788",
@@ -420,7 +422,7 @@
       "transactionId": "pay_rzp_mg13capl",
       "method": "Razorpay / UPI",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     },
     {
       "_id": "pay-1790752603760-212",
@@ -431,7 +433,7 @@
       "transactionId": "LR8E01MJ59",
       "method": "UPI QR",
       "status": "successful",
-      "createdAt": "2026-09-30T07:39:04.383Z"
+      "createdAt": "2026-09-30T08:02:56.426Z"
     }
   ],
   "bills": [
@@ -689,6 +691,30 @@
         "count": 5
       },
       "timestamp": "2026-09-30T07:39:04.380Z"
+    },
+    {
+      "_id": "audit-1790755376424-r52xv",
+      "userId": "usr-patient-1",
+      "action": "EMERGENCY_REQUEST_CREATED",
+      "resourceType": "EMERGENCY_REQUEST",
+      "resourceId": "req-1790755376422-7776",
+      "details": {
+        "referenceCode": "LR-REQ-27358",
+        "category": "medical"
+      },
+      "timestamp": "2026-09-30T08:02:56.424Z"
+    },
+    {
+      "_id": "audit-1790755376426-snwu7",
+      "userId": "usr-patient-1",
+      "action": "AMBULANCE_ASSIGNED",
+      "resourceType": "EMERGENCY_REQUEST",
+      "resourceId": "req-1790755376422-7776",
+      "details": {
+        "ambulanceId": "amb-1",
+        "hospitalId": "hos-1"
+      },
+      "timestamp": "2026-09-30T08:02:56.426Z"
     }
   ]
 }
