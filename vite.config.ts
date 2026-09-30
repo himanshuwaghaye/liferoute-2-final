@@ -7,15 +7,13 @@ import { nitro } from "nitro/vite";
 
 export default defineConfig({
   plugins: [
-    tailwindcss(),
-    tsconfigPaths({ projects: ["./tsconfig.json"] }),
-    tanstackStart({
-      server: { entry: "server" },
-    }),
+    tanstackStart(),
     nitro({
       preset: process.env.NITRO_PRESET || (process.env.VERCEL ? "vercel" : undefined),
     }),
     viteReact(),
+    tailwindcss(),
+    tsconfigPaths({ projects: ["./tsconfig.json"] }),
   ],
   resolve: {
     alias: {
